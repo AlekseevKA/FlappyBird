@@ -23,6 +23,8 @@ namespace FlappyBird
             timer1.Tick += new EventHandler(update);
             Init();
             Invalidate();
+            this.Text = "Flappy Bird Алексеев";
+
         }
 
         public void Init()
